@@ -13,7 +13,19 @@ BuildRequires:	ocaml >= 3.04-7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-No main package.
+This package implements frequent string operations: searching,
+replacing, splitting, matching. It is independent from the Str
+library, and can replace Str in many cases. Unlike Str, xstr is
+thread-safe. xstr does not implement regular expressions in general,
+but an important subset.
+
+%description -l pl
+Pakiet ten implementuje czêste operacje na ³añcuchach znaków:
+szukanie, zamianê, dzielenie i doposowywanie wzorca. Jest niezale¿ny
+od biblioteki Str, i mo¿e j± w wielu wypadkach zast±piæ. W
+przeciwieñstwie do Str mo¿na go u¿ywaæ w programach wielow±tkowych.
+Xstr nie implementuje wyra¿eñ regularnych w ca³o¶ci, tylko pewien
+wa¿ny podzbiór.
 
 %package devel
 Summary:	Thread-safe Str replacement - development part
