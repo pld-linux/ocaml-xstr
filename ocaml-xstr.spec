@@ -71,13 +71,11 @@ echo 'directory = "+xstr"' >> $RPM_BUILD_ROOT%{_libdir}/ocaml/xstr/META
 mv -f $RPM_BUILD_ROOT%{_libdir}/ocaml/xstr/META \
 	$RPM_BUILD_ROOT%{_libdir}/ocaml/site-lib/xstr/META
 
-gzip -9nf LICENSE README *.mli
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc *.gz
+%doc LICENSE README *.mli
 %{_libdir}/ocaml/xstr/*.cm[ixa]*
 %{_libdir}/ocaml/site-lib/xstr
