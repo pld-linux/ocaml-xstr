@@ -23,7 +23,7 @@ but an important subset.
 
 %description -l pl
 Pakiet ten implementuje czêste operacje na ³añcuchach znaków:
-szukanie, zamianê, dzielenie i doposowywanie wzorca. Jest niezale¿ny
+szukanie, zamianê, dzielenie i dopasowywanie wzorca. Jest niezale¿ny
 od biblioteki Str, i mo¿e j± w wielu wypadkach zast±piæ. W
 przeciwieñstwie do Str mo¿na go u¿ywaæ w programach wielow±tkowych.
 Xstr nie implementuje wyra¿eñ regularnych w ca³o¶ci, tylko pewien
@@ -47,7 +47,7 @@ this library.
 
 %description devel -l pl
 Pakiet ten implementuje czêste operacje na ³añcuchach znaków:
-szukanie, zamianê, dzielenie i doposowywanie wzorca. Jest niezale¿ny
+szukanie, zamianê, dzielenie i dopasowywanie wzorca. Jest niezale¿ny
 od biblioteki Str, i mo¿e j± w wielu wypadkach zast±piæ. W
 przeciwieñstwie do Str mo¿na go u¿ywaæ w programach wielow±tkowych.
 Xstr nie implementuje wyra¿eñ regularnych w ca³o¶ci, tylko pewien
