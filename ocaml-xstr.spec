@@ -8,6 +8,7 @@ Group:		Libraries
 Vendor:		Gerd Stolpmann <gerd@gerd-stolpmann.de>
 URL:		http://www.ocaml-programming.de/programming/download-caml.html
 Source0:	http://www.ocaml-programming.de/packages/xstr-%{version}.tar.gz
+# Source0-md5:	c0b307e27be44001b393afb6b46cd313
 BuildRequires:	ocaml >= 3.04-7
 %requires_eq	ocaml-runtime
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
