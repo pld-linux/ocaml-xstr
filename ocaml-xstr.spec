@@ -1,15 +1,16 @@
 Summary:	Thread-safe Str replacement
 Summary(pl):	Wielow±tkowy zastêpca modu³u Str
 Name:		ocaml-xstr
-Version:	0.2
+Version:	0.2.1
 Release:	1
 License:	BSD
 Group:		Libraries
 Vendor:		Gerd Stolpmann <gerd@gerd-stolpmann.de>
-URL:		http://www.ocaml-programming.de/programming/download-caml.html
+URL:		http://www.ocaml-programming.de/packages/
 Source0:	http://www.ocaml-programming.de/packages/xstr-%{version}.tar.gz
-# Source0-md5:	c0b307e27be44001b393afb6b46cd313
-BuildRequires:	ocaml >= 3.04-7
+# Source0-md5:	81598c438d6ab5c5d544ea7cc6ed8a34
+BuildRequires:	ocaml >= 3.07
+BuildRequires:	ocaml-findlib
 %requires_eq	ocaml-runtime
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -79,4 +80,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc LICENSE README *.mli
 %{_libdir}/ocaml/xstr/*.cm[ixa]*
+%{_libdir}/ocaml/xstr/*.a
 %{_libdir}/ocaml/site-lib/xstr
