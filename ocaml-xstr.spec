@@ -2,7 +2,7 @@ Summary:	Thread-safe Str replacement
 Summary(pl):	Wielow±tkowy zastêpca modu³u Str
 Name:		ocaml-xstr
 Version:	0.2.1
-Release:	2
+Release:	3
 License:	BSD
 Group:		Libraries
 Vendor:		Gerd Stolpmann <gerd@gerd-stolpmann.de>
