@@ -1,9 +1,9 @@
-%define		ocaml_ver	3.09.1
+%define		ocaml_ver	1:3.09.1
 Summary:	Thread-safe Str replacement
 Summary(pl):	Wielow±tkowy zastêpca modu³u Str
 Name:		ocaml-xstr
 Version:	0.2.1
-Release:	6
+Release:	7
 License:	BSD
 Group:		Libraries
 URL:		http://www.ocaml-programming.de/packages/
