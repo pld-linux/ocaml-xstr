@@ -1,6 +1,6 @@
 %define		ocaml_ver	1:3.09.2
 Summary:	Thread-safe Str replacement
-Summary(pl):	Wielow±tkowy zastêpca modu³u Str
+Summary(pl.UTF-8):   WielowÄ…tkowy zastÄ™pca moduÅ‚u Str
 Name:		ocaml-xstr
 Version:	0.2.1
 Release:	8
@@ -21,17 +21,17 @@ library, and can replace Str in many cases. Unlike Str, xstr is
 thread-safe. xstr does not implement regular expressions in general,
 but an important subset.
 
-%description -l pl
-Pakiet ten implementuje czêste operacje na ³añcuchach znaków:
-szukanie, zamianê, dzielenie i dopasowywanie wzorca. Jest niezale¿ny
-od biblioteki Str, i mo¿e j± w wielu wypadkach zast±piæ. W
-przeciwieñstwie do Str mo¿na go u¿ywaæ w programach wielow±tkowych.
-Xstr nie implementuje wyra¿eñ regularnych w ca³o¶ci, tylko pewien
-wa¿ny podzbiór.
+%description -l pl.UTF-8
+Pakiet ten implementuje czÄ™ste operacje na Å‚aÅ„cuchach znakÃ³w:
+szukanie, zamianÄ™, dzielenie i dopasowywanie wzorca. Jest niezaleÅ¼ny
+od biblioteki Str, i moÅ¼e jÄ… w wielu wypadkach zastÄ…piÄ‡. W
+przeciwieÅ„stwie do Str moÅ¼na go uÅ¼ywaÄ‡ w programach wielowÄ…tkowych.
+Xstr nie implementuje wyraÅ¼eÅ„ regularnych w caÅ‚oÅ›ci, tylko pewien
+waÅ¼ny podzbiÃ³r.
 
 %package devel
 Summary:	Thread-safe Str replacement - development part
-Summary(pl):	Wielow±tkowy zastêpca modu³u Str - cze¶æ programistyczna
+Summary(pl.UTF-8):   WielowÄ…tkowy zastÄ™pca moduÅ‚u Str - czeÅ›Ä‡ programistyczna
 Group:		Development/Libraries
 %requires_eq	ocaml
 
@@ -45,15 +45,15 @@ but an important subset.
 This package contains files needed to develop OCaml programs using
 this library.
 
-%description devel -l pl
-Pakiet ten implementuje czêste operacje na ³añcuchach znaków:
-szukanie, zamianê, dzielenie i dopasowywanie wzorca. Jest niezale¿ny
-od biblioteki Str, i mo¿e j± w wielu wypadkach zast±piæ. W
-przeciwieñstwie do Str mo¿na go u¿ywaæ w programach wielow±tkowych.
-Xstr nie implementuje wyra¿eñ regularnych w ca³o¶ci, tylko pewien
-wa¿ny podzbiór.
+%description devel -l pl.UTF-8
+Pakiet ten implementuje czÄ™ste operacje na Å‚aÅ„cuchach znakÃ³w:
+szukanie, zamianÄ™, dzielenie i dopasowywanie wzorca. Jest niezaleÅ¼ny
+od biblioteki Str, i moÅ¼e jÄ… w wielu wypadkach zastÄ…piÄ‡. W
+przeciwieÅ„stwie do Str moÅ¼na go uÅ¼ywaÄ‡ w programach wielowÄ…tkowych.
+Xstr nie implementuje wyraÅ¼eÅ„ regularnych w caÅ‚oÅ›ci, tylko pewien
+waÅ¼ny podzbiÃ³r.
 
-Pakiet ten zawiera pliki niezbêdne do tworzenia programów u¿ywaj±cych
+Pakiet ten zawiera pliki niezbÄ™dne do tworzenia programÃ³w uÅ¼ywajÄ…cych
 tej biblioteki.
 
 %prep
