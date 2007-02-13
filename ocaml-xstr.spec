@@ -1,6 +1,6 @@
 %define		ocaml_ver	1:3.09.2
 Summary:	Thread-safe Str replacement
-Summary(pl.UTF-8):   Wielowątkowy zastępca modułu Str
+Summary(pl.UTF-8):	Wielowątkowy zastępca modułu Str
 Name:		ocaml-xstr
 Version:	0.2.1
 Release:	8
@@ -31,7 +31,7 @@ ważny podzbiór.
 
 %package devel
 Summary:	Thread-safe Str replacement - development part
-Summary(pl.UTF-8):   Wielowątkowy zastępca modułu Str - cześć programistyczna
+Summary(pl.UTF-8):	Wielowątkowy zastępca modułu Str - cześć programistyczna
 Group:		Development/Libraries
 %requires_eq	ocaml
 
